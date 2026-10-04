@@ -11,14 +11,14 @@
 #define NODO 1
 // =====================================================
 // ---------- WiFi ----------
-const char* ssid     = "BASE#1";
-const char* password = "mirella240819";
+const char* ssid     = "nombredelwifi";
+const char* password = "contraseña";
 
 // ---------- HiveMQ Cloud ----------
-const char* mqtt_server = "97ab06eb161342cfa472cf20f448f413.s1.eu.hivemq.cloud";
+const char* mqtt_server = "broker.hivemq.cloud";
 const int   mqtt_port   = 8883;
-const char* mqtt_user   = "Marcelo";
-const char* mqtt_pass   = "veronica18";
+const char* mqtt_user   = "nombredelbroker";
+const char* mqtt_pass   = "contraseña";
 
 // ---------- Pines ----------
 #define DHTPIN    5     // D4
